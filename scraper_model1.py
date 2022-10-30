@@ -3,7 +3,7 @@ from matplotlib.pyplot import title
 import requests
 
 class Content:
-    def __init__(self, topic, url, body):
+    def __init__(self, topic, url, title, body):
         self.topic = topic
         self.title = title
         self.body = body
